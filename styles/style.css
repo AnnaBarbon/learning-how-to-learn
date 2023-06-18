@@ -182,7 +182,7 @@
   position: absolute;
   right: -5%;
   top: -5%;
-  rotate: 30deg;
+  transform: rotate(30deg);
   z-index: 1;
 }
 
