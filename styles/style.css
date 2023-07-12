@@ -71,6 +71,11 @@
   line-height: 25px;
 }
 
+.header__link:hover {
+  opacity: .7;
+  transition: opacity .3s ease;
+}
+
 .header__square-pic{
   margin: 0 auto;
   padding: 0;
@@ -278,6 +283,12 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  text-decoration: none;
+}
+
+.feynman__link:hover {
+  opacity: .7;
+  transition: opacity .3s ease;
 }
 
 .kaufman{
@@ -377,6 +388,11 @@
   padding: 0;
   width: 270px;
   height: 38px;
+}
+
+.resources__logo-image:hover {
+  opacity: .7;
+  transition: opacity .3s ease;
 }
 
 .footer{
