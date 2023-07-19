@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden;
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -20,7 +24,7 @@
 }
 
 .logo{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   background-repeat: no-repeat;
   background-position: left;
@@ -38,7 +42,7 @@
 }
 
 .header__title{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   font-size: 102px;
   line-height: 96px;
@@ -49,7 +53,7 @@
 }
 
 .header__subtitle{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   font-size: 18px;
   line-height: 25px;
@@ -61,7 +65,7 @@
 }
 
 .header__link{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   text-decoration: none;
   color: #2f80ed;
@@ -77,7 +81,7 @@
 }
 
 .header__square-pic{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   height: 80%;
   width: 40%;
@@ -102,7 +106,7 @@
 }
 
 .header__main-illustration{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   position: absolute;
   bottom: 0;
@@ -121,7 +125,7 @@
 }
 
 .two-columns{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   width: 80%;
   padding: 100px 10%;
@@ -131,7 +135,7 @@
 }
 
 .two-columns__brief{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   width: 175px;
   line-height: 1.2;
@@ -141,13 +145,13 @@
 }
 
 .two-columns__main-text{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   width: 80%;
 }
 
 .two-columns__paragraph{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   line-height: 34px;
   font-size: 24px;
@@ -163,7 +167,7 @@
 }
 
 .section__title{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   font-size: 60px;
   line-height: 1.15;
@@ -174,7 +178,7 @@
 }
 
 .section__subtitle{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   font-size: 24px;
   font-weight: 600;
@@ -188,10 +192,13 @@
   padding: 0;
   width: 80%;
   padding: 100px 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .cards{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   width: 920px;
   display: grid;
@@ -200,7 +207,7 @@
 }
 
 .cards__item{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   padding-top: 60px;
   display: flex;
@@ -209,7 +216,7 @@
 }
 
 .cards__image{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   border-radius: 50%;
   width: 160px;
@@ -218,7 +225,7 @@
 }
 
 .cards__title{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   line-height: 1.15;
   font-size: 24px;
@@ -228,7 +235,7 @@
 }
 
 .cards__description{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   line-height: 23px;
   font-size: 18px;
@@ -252,21 +259,24 @@
   background-position: left bottom;
   padding-top: 100px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .feynman__title{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   width: 775px;
   line-height: 1.15;
   font-size: 100px;
   font-weight: 600;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 70px;
 }
 
 .feynman__subtitle{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   line-height: 51px;
   font-size: 36px;
@@ -275,7 +285,7 @@
 }
 
 .feynman__link{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   position: absolute;
   top: 50%;
@@ -284,6 +294,7 @@
   font-size: 36px;
   font-weight: normal;
   text-decoration: none;
+  color: #2f80ed;
 }
 
 .feynman__link:hover {
@@ -306,20 +317,26 @@
   z-index: 0;
 }
 
-.title_color_white{
+.section__title_theme_dark{
   color: white;
   position: relative;
+}
+
+.section__title_place_kaufman{
   z-index: 2;
 }
 
-.subtitle_color_white{
+.section__subtitle_theme_dark{
   color: white;
   position: relative;
+}
+
+.section__subtitle_place_kaufman{
   z-index: 2;
 }
 
 .table{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   display: grid;
   grid-template-columns: repeat(5, 200px);
@@ -332,7 +349,7 @@
 }
 
 .table__cell{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   width: 200px;
   color: white;
@@ -351,7 +368,7 @@
 }
 
 .table__text{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   font-size: 18px;
   line-height: 1.2;
@@ -359,7 +376,7 @@
 }
 
 .kaufman__triangle{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   position: absolute;
   right: -100px;
@@ -372,19 +389,23 @@
   margin: 0 auto;
   padding: 0;
   padding: 100px 0 217px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .resources__logo-zone{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   padding-top: 80px;
   width: 1100px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .resources__logo-image{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   width: 270px;
   height: 38px;
@@ -407,7 +428,7 @@
 }
 
 .footer__content{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   width: 90%;
   max-width: 1100px;
