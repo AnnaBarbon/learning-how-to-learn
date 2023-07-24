@@ -9,19 +9,6 @@
   align-items: center;
 }
 
-.header {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  width: 100%;
-  min-height: 600px;
-  max-height: 756px;
-  position: relative;
-  background-color: #f2f2f2;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-}
 
 .logo{
   margin: 0;
@@ -41,55 +28,6 @@
   background-image: url(../images/logo_place_header.png);
 }
 
-.header__title{
-  margin: 0;
-  padding: 0;
-  font-size: 102px;
-  line-height: 96px;
-  font-weight: 600;
-  z-index: 1;
-  width: 50%;
-  margin-left: 64px;
-}
-
-.header__subtitle{
-  margin: 0;
-  padding: 0;
-  font-size: 18px;
-  line-height: 25px;
-  position: absolute;
-  width: 27%;
-  bottom: 30px;
-  left: 64px;
-  z-index: 1;
-}
-
-.header__link{
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  color: #2f80ed;
-  font-size: 18px;
-  line-height: 25px;
-}
-
-.header__link:hover {
-  opacity: .7;
-  transition: opacity .3s ease;
-}
-
-.header__square-pic{
-  margin: 0;
-  padding: 0;
-  height: 80%;
-  width: 40%;
-  position: absolute;
-  right: 0;
-  top: 64px;
-  background-color: #2f80ed;
-  z-index: 0;
-}
-
 .rotation{
   animation: rotation 20s linear infinite;
 }
@@ -103,15 +41,6 @@
   }
 }
 
-.header__main-illustration{
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  height: 90vh;
-  z-index: 0;
-}
 
 .content{
   margin: 0;
