@@ -5,9 +5,9 @@
   color: #2f80ed;
   font-size: 18px;
   line-height: 25px;
+  transition: opacity 1s ease;
 }
 
 .header__link:hover {
   opacity: .7;
-  transition: opacity .3s ease;
 }
